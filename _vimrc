@@ -86,3 +86,5 @@ augroup vimrcEx
 augroup END
 
 execute pathogen#infect()
+
+map <C-n> :NERDTreeToggle<CR>
