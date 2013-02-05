@@ -11,9 +11,6 @@ if has("gui_running")
 endif
 
 
-set smartcase
-
-set incsearch
 
 set expandtab
 set shiftwidth=2
@@ -88,3 +85,7 @@ augroup END
 execute pathogen#infect()
 
 map <C-n> :NERDTreeToggle<CR>
+
+" set smartcase
+set ic
+set incsearch
